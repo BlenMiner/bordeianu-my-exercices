@@ -1,13 +1,13 @@
 export const my_is_posi_neg = (nbr) => {
-    if (typeof nbr !== 'number' || nbr === 0) {
-        return "NEUTRAL";
+    if (typeof nbr !== 'number' || nbr > 0) {
+        return "POSITIF";
     }
     else
     {
-        if (nbr < 0) {
-            return "NEGATIF";
+        if (nbr === 0) {
+            return "NEUTRAL";
         } else {
-            return "POSITIF";
+            return "NEGATIF";
         }
     }
 }
