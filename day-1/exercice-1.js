@@ -7,5 +7,5 @@ export const my_display_alpha = () => {
         result += String.fromCharCode(c);
     }
 
-    console.log(result);
+    return result;
 }
