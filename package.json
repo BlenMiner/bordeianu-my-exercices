@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "day1": "mocha"
+    "day1": "mocha",
+    "day1-raw": "node test/day-1-rawtests.js"
   },
   "repository": {
     "type": "git",
