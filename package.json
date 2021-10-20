@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "day1": "mocha",
+    "tests": "mocha",
     "day1-raw": "node test/day-1-rawtests.js"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/BlenMiner/bordeianu-my-exercices/issues"
   },
-  "homepage": "https://github.com/BlenMiner/bordeianu-my-exercices#readme"
+  "homepage": "https://github.com/BlenMiner/bordeianu-my-exercices#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
 }
