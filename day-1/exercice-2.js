@@ -4,7 +4,7 @@ export const reverseString = (str) => {
     var result = "";
     let i = 0;
 
-    while (str[i])
+    while (str[i] !== undefined)
     {
         result = str[i] + result;
         ++i;
