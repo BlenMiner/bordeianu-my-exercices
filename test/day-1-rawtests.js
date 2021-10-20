@@ -1,3 +1,3 @@
-import { my_display_comb } from "../day-2/exercice-4.js"
+import { my_display_combv2 } from "../day-2/exercice-5.js"
 
-console.log(my_display_comb());
+console.table(my_display_combv2());
