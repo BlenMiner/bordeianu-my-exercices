@@ -1,6 +1,6 @@
 import { my_display_alpha } from "./exercice-1.js"
 
-export const reverseString = (str) => {
+export const reverse_string = (str) => {
     var result = "";
     let i = 0;
 
@@ -14,5 +14,5 @@ export const reverseString = (str) => {
 }
 
 export const my_display_alpha_reverse = () => {
-    return reverseString(my_display_alpha());
+    return reverse_string(my_display_alpha());
 }
